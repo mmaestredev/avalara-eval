@@ -1,0 +1,781 @@
+{
+  "eventType": "payment-prepared",
+  "clientId": "Test-servicepad",
+  "url": "https://staging.carportview.com/eagle-servicepad/?dealer=dealer-test-service-pad#5637422ed216e2986982db031c23796e",
+  "order": {
+    "calculations": [
+      {
+        "value": 0,
+        "token": "deliveryPrice"
+      },
+      {
+        "value": 5275,
+        "token": "buildingPrice"
+      },
+      {
+        "value": 5275,
+        "token": "structurePrice"
+      },
+      {
+        "value": 5275,
+        "token": "lineItemsSubtotal"
+      },
+      {
+        "value": 0,
+        "token": "percentOfBuildingItems"
+      },
+      {
+        "value": 0,
+        "token": "percentOfStructureItems"
+      },
+      {
+        "value": 5275,
+        "token": "taxableItemsForPercentOfSubtotalCalc"
+      },
+      {
+        "value": 1055,
+        "token": "percentOfSubtotalItems"
+      },
+      {
+        "value": 0,
+        "token": "surchargeSubtotal"
+      },
+      {
+        "value": 0,
+        "token": "surchargeItems"
+      },
+      {
+        "value": 0,
+        "token": "surcharge"
+      },
+      {
+        "value": 0,
+        "token": "nonTaxableSurcharge"
+      },
+      {
+        "value": 0,
+        "token": "taxableSurcharge"
+      },
+      {
+        "value": 6330,
+        "token": "taxableItems"
+      },
+      {
+        "value": 522.225,
+        "token": "totalTax"
+      },
+      {
+        "value": 8.25,
+        "token": "taxPercentage"
+      },
+      {
+        "value": 6852.225,
+        "token": "totalForPercentOfTotalCalc"
+      },
+      {
+        "value": 0,
+        "token": "percentOfTotalItems"
+      },
+      {
+        "value": 6330,
+        "token": "subtotal"
+      },
+      {
+        "value": 6330,
+        "token": "subtotalWithoutCustomItems"
+      },
+      {
+        "value": 0,
+        "token": "nonTaxableItems"
+      },
+      {
+        "value": 0,
+        "token": "subtotalExcludedFromDeposit"
+      },
+      {
+        "value": 0,
+        "token": "totalExcludedFromDeposit"
+      },
+      {
+        "value": 6852.225,
+        "token": "total"
+      },
+      {
+        "value": 633,
+        "token": "depositAmount"
+      },
+      {
+        "value": 10,
+        "token": "depositPercentage"
+      },
+      {
+        "value": 10,
+        "token": "standardDepositPercentage"
+      },
+      {
+        "value": 0,
+        "token": "depositDiscount"
+      },
+      {
+        "value": 0,
+        "token": "processingFee"
+      },
+      {
+        "value": 633,
+        "token": "depositDueNow"
+      },
+      {
+        "value": 0,
+        "token": "creditCardFee"
+      },
+      {
+        "value": 0,
+        "token": "deliveryFeeToPrintQuote"
+      },
+      {
+        "value": 6219.225,
+        "token": "remainingDueForPercentOfRemainingDueCalc"
+      },
+      {
+        "value": 0,
+        "token": "percentOfRemainingDueItems"
+      },
+      {
+        "value": 6219.225,
+        "token": "remainingDue"
+      },
+      {
+        "value": 633,
+        "token": "depositDueNowWithCreditCardFee"
+      },
+      {
+        "value": 6852.225,
+        "token": "totalWithCreditCardFee"
+      },
+      {
+        "value": 2.5,
+        "token": "customQuoteCreditCardFeePercent"
+      },
+      {
+        "value": 155.481,
+        "token": "customQuoteCreditCardFee"
+      },
+      {
+        "value": 6374.706,
+        "token": "remainingDueWithCustomQuoteCreditCardFee"
+      }
+    ],
+    "buildingPrice": 5275,
+    "deliveryPercentageToPrintQuotePrice": 0,
+    "deliveryPrice": 0,
+    "depositAmount": 0,
+    "depositPercent": 10,
+    "processingFee": 0,
+    "depositDueNow": 633,
+    "nonTaxableItems": 0,
+    "excludedFromSubtotalPrice": 0,
+    "integrationProperties": {
+      "buildingStyle": "Carport",
+      "buildingSize": {
+        "width": "24'",
+        "length": "25'"
+      }
+    },
+    "lineItems": [
+      {
+        "optionType": "style",
+        "quantity": 1,
+        "optionKey": "metal-carport",
+        "hideQuantity": true,
+        "price": 0,
+        "description": "Style: Carport",
+        "hidePrice": true,
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "productCategory": "structure"
+      },
+      {
+        "quantity": 1,
+        "optionKey": null,
+        "price": 3795,
+        "description": "Base Price: 24‘x25'",
+        "section": "center-section",
+        "surchargeCategory": "base-price",
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64b99b0-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "dirt",
+        "quantity": 1,
+        "optionKey": "dirt",
+        "price": 0,
+        "description": "Installation Surface: Dirt",
+        "section": "center-section",
+        "surchargeCategory": "none",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64c5d00-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "royal-blue",
+        "quantity": 1,
+        "optionKey": "royal-blue",
+        "price": 0,
+        "description": "Roof: Royal Blue",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64cab20-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "royal-blue",
+        "quantity": 1,
+        "optionKey": "royal-blue",
+        "price": 0,
+        "description": "Trim: Royal Blue",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64cf940-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "pebble-beige",
+        "quantity": 1,
+        "optionKey": "pebble-beige",
+        "price": 0,
+        "description": "Wall Exterior Color: Pebble Beige",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64d6e72-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "vertical-roof",
+        "quantity": 1,
+        "optionKey": "vertical-roof",
+        "price": 0,
+        "description": "Roof Style: Vertical Style",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64d9580-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "three-twelve",
+        "quantity": 1,
+        "optionKey": "three-twelve",
+        "price": 0,
+        "description": "Roof Pitch: 3 / 12",
+        "section": "center-section",
+        "surchargeCategory": "none",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64dbc90-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "six-inches-overhang",
+        "quantity": 1,
+        "optionKey": "six-inches-overhang",
+        "price": 0,
+        "description": "Roof Overhang: 6\"",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64de3a0-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "standard-trusses",
+        "quantity": 1,
+        "optionKey": "standard-trusses",
+        "price": 0,
+        "description": "Trusses: Standard",
+        "section": "center-section",
+        "surchargeCategory": "none",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64e31c1-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "14-gauge-framing",
+        "quantity": 1,
+        "optionKey": "14-gauge-framing",
+        "price": 0,
+        "description": "Gauge: 14-Gauge Framing",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64ece00-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "brace-2-foot",
+        "quantity": 1,
+        "optionKey": "brace-2-foot",
+        "price": 0,
+        "description": "Brace: 2' Brace",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64f6a40-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "certified-14-gauge",
+        "quantity": 1,
+        "optionKey": "certified-14-gauge",
+        "price": 180,
+        "description": "Engineer Certified: 140MPH / 35PSF",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d64f6a40-9a51-11ec-a06a-25470f98e30b"
+        },
+        "quantity": 1,
+        "identifierKey": "has-ground-anchor",
+        "optionKey": "has-ground-anchor",
+        "price": 0,
+        "description": " Ground Anchors (included with Cert)",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6502d90-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "9-tall",
+        "quantity": 1,
+        "optionKey": "9-tall",
+        "price": 300,
+        "description": "Leg Height: 9'",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6516610-9a51-11ec-a06a-25470f98e30b"
+        },
+        "quantity": 1,
+        "optionKey": null,
+        "price": 120,
+        "description": "Left Side: Half Panel With Trim",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": true,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6516610-9a51-11ec-a06a-25470f98e30b"
+        },
+        "quantity": 1,
+        "optionKey": "horizontal-siding",
+        "price": 0,
+        "description": "Left Side Siding: Horizontal",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6516610-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "j-trim-sides-ends",
+        "quantity": 1,
+        "optionKey": "j-trim-sides-ends",
+        "price": 0,
+        "description": "Left Side J-Trim: Add J-Trim",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d65388f0-9a51-11ec-a06a-25470f98e30b"
+        },
+        "quantity": 1,
+        "optionKey": null,
+        "price": 120,
+        "description": "Right Side: Half Panel With Trim",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": true,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d65388f0-9a51-11ec-a06a-25470f98e30b"
+        },
+        "quantity": 1,
+        "optionKey": "horizontal-siding",
+        "price": 0,
+        "description": "Right Side Siding: Horizontal",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d65388f0-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "j-trim-sides-ends",
+        "quantity": 1,
+        "optionKey": "j-trim-sides-ends",
+        "price": 0,
+        "description": "Right Side J-Trim: Add J-Trim",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6547350-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "certified-gable-end-wall",
+        "quantity": 1,
+        "optionKey": "certified-gable-end-wall",
+        "price": 380,
+        "description": "Front End: Gable End",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": true,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6547350-9a51-11ec-a06a-25470f98e30b"
+        },
+        "quantity": 1,
+        "optionKey": "gable-horizontal-siding",
+        "price": 0,
+        "description": "Front End Siding: Horizontal",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6547350-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "j-trim-sides-ends",
+        "quantity": 1,
+        "optionKey": "j-trim-sides-ends",
+        "price": 0,
+        "description": "Front End J-Trim: Add J-Trim",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6575980-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "certified-gable-end-wall",
+        "quantity": 1,
+        "optionKey": "certified-gable-end-wall",
+        "price": 380,
+        "description": "Back End: Gable End",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": true,
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6575980-9a51-11ec-a06a-25470f98e30b"
+        },
+        "quantity": 1,
+        "optionKey": "gable-horizontal-siding",
+        "price": 0,
+        "description": "Back End Siding: Horizontal",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "productCategory": "structure"
+      },
+      {
+        "consolidatedOptions": {
+          "relatedItemId": "d6575980-9a51-11ec-a06a-25470f98e30b"
+        },
+        "identifierKey": "j-trim-sides-ends",
+        "quantity": 1,
+        "optionKey": "j-trim-sides-ends",
+        "price": 0,
+        "description": "Back End J-Trim: Add J-Trim",
+        "section": "center-section",
+        "surchargeCategory": "structure",
+        "isWall": false,
+        "productCategory": "structure"
+      },
+      {
+        "quantity": 1,
+        "optionKey": null,
+        "price": 1055,
+        "description": "20% Manufacturer Material Surcharge",
+        "section": "center-section",
+        "surchargeCategory": "none",
+        "excludePriceFromDeposit": false,
+        "productCategory": "additional-fees"
+      }
+    ],
+    "paymentMethod": "rent-to-own-flexlease",
+    "remainingDue": 6219.225,
+    "rentToOwn": "rto1",
+    "standardDepositPercent": 10,
+    "structurePrice": 5275,
+    "subtotalPrice": 6330,
+    "subtotalPriceWithoutCustomItems": 6330,
+    "taxExempt": false,
+    "totalPrice": 6852.225,
+    "totalTax": 522.225,
+    "regionLabel": "Blue Book",
+    "salesRep": {
+      "name": "asdasd"
+    },
+    "notes": null,
+    "customDepositPercentage": 0,
+    "emailId": "1646243682189563",
+    "uuid": "b6796400-9a51-11ec-8c2e-0140a85bdef9",
+    "customLineItems": [],
+    "jobsite-ready": "jobsite-ready-yes",
+    "taxType": "standard",
+    "images": {
+      "elevationMapLeftSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_elevationMapLeftSrc.png",
+      "elevationMapBackSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_elevationMapBackSrc.png",
+      "elevationMapFrontSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_elevationMapFrontSrc.png",
+      "floorplanWithLegendSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_floorplanWithLegendSrc.png",
+      "isoSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_isoSrc.png",
+      "rightSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_rightSrc.png",
+      "leftSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_leftSrc.png",
+      "backSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_backSrc.png",
+      "floorplanSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_floorplanSrc.png",
+      "elevationMapRightSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_elevationMapRightSrc.png",
+      "frontSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_frontSrc.png",
+      "floorPlanSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_floorPlanSrc_.png",
+      "floorplanEmailSrc": "https://servicepad-dev.s3.amazonaws.com/public/demo_images/carport/carport_floorplanEmailSrc.png"
+    },
+    "salesAccount": {
+      "authenticated": true,
+      "email": "support@servicepad.com"
+    },
+    "customDeposit": false,
+    "power-available": "power-available-yes",
+    "shippingAddress.state": "OK",
+    "taxRate": 0,
+    "site-ready": "site-ready-yes",
+    "secondaryPhone": null,
+    "status": "deposit-now-paying",
+    "customTaxRate": false,
+    "externalReferenceId": null,
+    "shippingAddress.zip": "14412",
+    "installation": {},
+    "emailFloorPlan": false,
+    "customTaxPercentage": 0,
+    "depositDiscount": {
+      "customAmount": 0,
+      "customPercentage": 0,
+      "type": "custom-amount"
+    },
+    "dealer": {
+      "name": "Dealer Test Servicepad",
+      "address": "Any town, AT 099999",
+      "phone": "555-555-5555",
+      "email": "test@servicepad.com",
+      "key": "dealer-test-service-pad"
+    },
+    "shippingAddress": {
+      "zip": "27030",
+      "firstName": "John",
+      "lastName": "Smith",
+      "city": "Anytown",
+      "phone": "1234567890",
+      "address1": "123 Main Street",
+      "state": "OK"
+    },
+    "selectedDealerKey": "dealer-test-service-pad",
+    "billingAddress": {
+      "zip": "27030",
+      "firstName": "John",
+      "lastName": "Smith",
+      "city": "Anytown",
+      "phone": "1234567890",
+      "address1": "123 Main Street",
+      "sameAsShipping": true,
+      "state": "OK"
+    },
+    "customDepositAmount": 0,
+    "depositType": "standard",
+    "customer": {
+      "firstName": "John",
+      "lastName": "Smith",
+      "phone": "1234567890",
+      "email": "test@youremail.com"
+    },
+    "buildingStructure": {
+      "buildingStyle": "metal-carport",
+      "installation-surface": "dirt",
+      "wainscot": "none",
+      "roofing": "vertical-roof",
+      "roof-overhang": "six-inches-overhang",
+      "insulation-material": "2-fiberglass-im",
+      "section": [
+        {
+          "key": "center-section",
+          "width": "24-wide",
+          "height": "9-tall",
+          "roof-pitch": "three-twelve",
+          "length": "25-deep",
+          "storage": "none",
+          "position": [
+            {
+              "key": "front",
+              "wall": "certified-gable-end-wall",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "back",
+              "wall": "certified-gable-end-wall",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "left",
+              "wall": "top-1-5-panel-wall",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "right",
+              "wall": "top-1-5-panel-wall",
+              "siding": "horizontal-siding"
+            }
+          ],
+          "wall-footprint": "no-storage-wall-footprint",
+          "trusses": "standard-trusses",
+          "brace": "brace-2-foot",
+          "leg": "standard-legs",
+          "frame-spacing": "frame-spacing-five-feet"
+        },
+        {
+          "key": "left-section",
+          "lean-type": "none",
+          "wall-footprint": "no-storage-wall-footprint",
+          "position": [
+            {
+              "key": "right",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "back",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "left",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "front",
+              "siding": "horizontal-siding"
+            }
+          ],
+          "brace": "brace-2-foot",
+          "frame-spacing": "frame-spacing-five-feet"
+        },
+        {
+          "key": "right-section",
+          "lean-type": "none",
+          "wall-footprint": "no-storage-wall-footprint",
+          "position": [
+            {
+              "key": "right",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "back",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "left",
+              "siding": "horizontal-siding"
+            },
+            {
+              "key": "front",
+              "siding": "horizontal-siding"
+            }
+          ],
+          "brace": "brace-2-foot",
+          "frame-spacing": "frame-spacing-five-feet"
+        }
+      ],
+      "engineer-certified": "certified-14-gauge",
+      "siding": "horizontal-siding",
+      "gable-siding": "gable-horizontal-siding",
+      "gauge": "14-gauge-framing",
+      "trim-package": "standard-trim-package",
+      "j-trim": "j-trim-sides-ends",
+      "frame-spacing": "frame-spacing-five-feet",
+      "color-group": [
+        {
+          "key": "roof",
+          "color": "royal-blue"
+        },
+        {
+          "key": "trim",
+          "color": "royal-blue"
+        },
+        {
+          "key": "endwall-siding",
+          "color": "pebble-beige"
+        },
+        {
+          "key": "endwall-interior",
+          "color": "panel-backer"
+        },
+        {
+          "key": "sidewall-interior",
+          "color": "panel-backer"
+        }
+      ],
+      "roof-hat-channels": "roof-hat-channel",
+      "trim": "standard",
+      "payment-method": "rent-to-own-flexlease",
+      "dealer": "dealer-test-service-pad",
+      "rent-to-own": "rto1"
+    }
+  },
+  "hash": "5637422ed216e2986982db031c23796e",
+  "environment": "staging"
+}
